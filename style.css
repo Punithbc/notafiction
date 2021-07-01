@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  text-align: center;
+  background: #E4F9F5;
+}
+.top-container{
+  background: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 800px;
+  top: 60px;
+  height: 40px;
+
+
+}
+h1{
+  margin:0;
+  padding: 10px;
+  font-family:'Sacramento',cursive;
+  font-size: 80px;
+  color: #FF94CC;
+
+}
+.angel-pic{
+height: 500px;
+
+}
+.bottom-cloud{
+position: absolute;
+right: 1080px;
+top: 600px;
+height: 50px;
+}
+.mountain-pic{
+position: absolute;
+left:0px;
+height: 300px;
+
+}
+p{
+  font-size: 20px;
+  font-family:cursive;
+  color: #FFA900;
+}
+.author_name{
+  position: absolute;
+  margin-top: 10px;
+  right:0;
+  font-size: 50px;
+  padding-right: 400px;
+  color: #C490E4;
+  font-family:'Sacramento',cursive;
+}
+.bottom-cloud1{
+position: absolute;
+right: 1200px;
+top : 300px;
+height: 50px;
+}
+.bottom-cloud2{
+position: absolute;
+right: 200px;
+top:  350px;
+height: 50px;
+}
+.bottom-cloud3{
+position: absolute;
+right:100px;
+/* top: 300px; */
+height: 60px;
+}
+.bottom-cloud4{
+position: absolute;
+right:1100px;
+top: 100px;
+height: 60px;
+}
+.bird{
+  position: absolute;
+  left:0;
+  top:0;
+  height:200px;
+}
