@@ -1,79 +1,70 @@
-/* General Styling */
 body {
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff;
     color: #333;
+    text-align: center;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
+.top-container {
+    position: relative;
     padding: 20px;
 }
 
-/* Header */
-.header .title {
+.title {
     font-family: 'Sacramento', cursive;
-    font-size: 2.5em;
-    color: #ff6347;
+    font-size: 3em;
+    color: #ff4500;
     margin-bottom: 20px;
 }
 
-/* Poem Section */
 .poem-container {
-    background: #ffffff;
-    padding: 20px;
     margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    line-height: 1.8em;
 }
 
-.poem-container p {
-    margin: 10px 0;
-}
-
-.author-name {
+.author_name {
     margin-top: 20px;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 1.5em;
     color: #008080;
 }
 
-/* Image Section */
-.image-section {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.decor-image {
-    max-width: 80px;
+img {
+    max-width: 100%;
     height: auto;
+}
+
+.top-cloud, .bottom-cloud, .mountain-pic, .bird {
+    position: absolute;
+    width: 150px;
     opacity: 0.8;
-    transition: transform 0.3s;
 }
 
-.decor-image:hover {
-    transform: scale(1.1);
+.top-cloud {
+    top: 10px;
+    left: 20px;
 }
 
-.small-cloud {
-    margin-right: 10px;
+.bottom-cloud {
+    bottom: 10px;
+    left: 40px;
 }
 
-.angel {
-    margin-left: 10px;
+.mountain-pic {
+    bottom: 0;
+    width: 100%;
+    opacity: 0.9;
 }
 
 .bird {
-    margin-left: 10px;
-}
-
-.mountain {
-    margin-left: 10px;
+    top: 50px;
+    right: 20px;
 }
