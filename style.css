@@ -68,3 +68,17 @@ img {
     top: 50px;
     right: 20px;
 }
+.angel-pic {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.mountain-pic {
+    width: 80%; /* Adjust the size to fit the design */
+    height: auto;
+    margin: 20px auto;
+    opacity: 0.9;
+}
+
