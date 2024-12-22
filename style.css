@@ -42,9 +42,23 @@ img {
     height: auto;
 }
 
-.top-cloud, .bottom-cloud, .mountain-pic, .bird {
+.angel-pic {
+    width: 150px; /* Smaller size for better mobile view */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.mountain-pic {
+    width: 90%; /* Smaller size for mobile screens */
+    height: auto;
+    margin: 20px auto;
+    opacity: 0.9;
+}
+
+.top-cloud, .bottom-cloud, .bird {
     position: absolute;
-    width: 150px;
+    width: 120px;
     opacity: 0.8;
 }
 
@@ -58,27 +72,31 @@ img {
     left: 40px;
 }
 
-.mountain-pic {
-    bottom: 0;
-    width: 100%;
-    opacity: 0.9;
-}
-
 .bird {
-    top: 100px;
+    top: 50px;
     right: 20px;
 }
-.angel-pic {
-    width: 400px; /* Adjust the size as needed */
-    height: auto;
-    margin: 20px auto;
-    display: block;
-}
 
-.mountain-pic {
-    width: 50%; /* Adjust the size to fit the design */
-    height: 20%;
-    margin: 20px auto;
-    opacity: 0.9;
-}
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5em;
+    }
 
+    .poem-container {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .angel-pic {
+        width: 120px;
+    }
+
+    .mountain-pic {
+        width: 95%;
+    }
+
+    .top-cloud, .bottom-cloud, .bird {
+        width: 100px;
+    }
+}
